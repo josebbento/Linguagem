@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100%;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none ;
+}
+
+/*header*/
+header {
+    padding: 10px 0px 50px 0px;
+    background-color: #111;
+}
+
+header a {
+    padding: 5px;
+}
+
+header > p > a:hover, header > nav a:hover{
+    background-color: #999;
+    border-radius: 2px;
+    color: #333;
+}
+
+header p {
+    position: absolute;
+    left: 20px;
+}
+
+header nav {
+    background-color: #333;
+    border-radius: 2px;
+    position: absolute;
+    right: 20px;
+}
+
+header img {
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+
+header h1, h2{
+    text-align: center;
+}
+
+header h1{
+    font-family: "Madimi One", sans-serif;
+    color: #a55;
+    font-style: italic;
+}
+
+header h2{
+    font-size: 1em;
+    font-weight: 200;
+}
+
+/*main*/
+main {
+    margin: auto auto 60px auto;
+    text-align: center;
+}
+article {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+article h1 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+article a {
+    color: black;
+    padding: 5px;
+}
+
+article a:hover {
+    background-color: #999;
+    border-radius: 3px;
+}
+
+article p {
+    font-size: .7em;
+}
+
+.data {
+    margin-top: 20px;
+}
+
+ul {
+    text-align: center;
+    margin: 20px 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 4px 7px;
+}
+
+li a:hover {
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+#atual {
+    border-top: orangered 2px solid;
+}
+
+/*footer*/
+footer {
+    border-top: 1px solid white;
+    width: 100%;
+    background-color: #111;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    margin: 30px;
+    display: inline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

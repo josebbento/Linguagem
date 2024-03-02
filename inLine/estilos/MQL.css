@@ -1,0 +1,40 @@
+@media (min-width: 700px) and (max-width: 1200px){
+    article img {
+        width: 20%;
+        height: calc(140px - 4vw);
+        display: inline;
+        object-fit: cover;
+    }
+    article div {
+        padding-left: 10px;
+        display: inline-block;
+        width: 75%;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+} 
+
+@media (min-width: 1200px){
+    main {
+        width: 1200px;
+        text-align: center;
+        min-height: auto;
+    }
+    article img {
+        width: 222px;
+        height: 92px;
+        object-fit: cover;
+    }
+    article div {
+        display: inline-block;
+        width: 900px;
+        padding-left: 10px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+

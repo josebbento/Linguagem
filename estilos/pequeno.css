@@ -1,0 +1,6 @@
+@media (max-aspect-ratio:2/3) {
+    footer {
+        bottom: 0;
+        position: absolute;
+    }
+}

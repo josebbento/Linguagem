@@ -1,0 +1,49 @@
+@media (min-width: 700px) and (max-width: 1200px){
+    main {
+        margin: auto auto 80px auto;
+        text-align: center;
+    }
+    article {
+        width: 30%;
+        display: inline-block;
+        text-align: justify;
+    }
+    article img {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px){
+    main {
+        width: 1200px;
+        margin: auto;
+        text-align: center;
+        min-height: auto;
+    }
+    article {
+        display: inline-block;
+        text-align: justify;
+        width: 293px;
+        margin: 20px;
+    }
+    article img {
+        height: 150px;
+        object-fit: cover;
+    }
+    .info {
+        height: 60px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+/*
+@media (min-width: 700px) and (min-height: 688px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}*/
+
